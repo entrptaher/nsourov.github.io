@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>নাইমুর রহমান | ডেডিকেটেড ব্যাকএন্ড প্রোগ্রামার</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="eight wide column">
+            <h1 class="ui header aligned">আমি কে?</h1>
+          <p>হ্যালো! আমি নাইমুর রহমান। ডেভেলপমেন্ট জগতের একজন ব্যাকএন্ড ডেভেলপার, ঢাকার খিলখেতের বাসিন্দা। আমি এইচটিএমএল৫, সিএসএস৩,
+            জাভাস্ক্রিপ্ট, নোড-জেএস, এবং একটু রিএক্টজেএস ব্যবহার করে ডাইনামিক ওয়েবসাইট তৈরি করি। ভালো লাগে ওয়েব অটোমেশন এবং
+            নিত্য নতুন বিভিন্ন টেকনোলজি নিয়ে ঘাটাঘাটি করতে। </p>
+          <p>এইত কদিন আগেই আমি ফ্রিকোডক্যাম্পের ফ্রন্টএন্ড ডেভেলপার সার্টিফিকেট নিয়ে জুনিয়র ডেভেলপার হিসেবে ওয়েবের এই বিশাল
+            জগতে পা রেখেছি। আসুন একত্রে অসাধারণ কিছু করি।</p>
+          <p>
+            <a class="fa fa-github" href="https://github.com/nsourov" target="_blank"></a>
+            <a class="fa fa-facebook" href="https://www.facebook.com/naeem.sourov" target="_blank"></a>
+            <a class="fa fa-twitter" href="https://www.twitter.com/naimur103" target="_blank"></a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/naimur_sourov/" target="_blank"></a>
+          </p>
+        </div>
+        <div class="six wide right floated column">
+          <img src="assets/images/profile.jpg" class="ui large bordered rounded image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="center aligned column">
+          <a class="ui huge black button" href="mailto:naimur.rahman103@gmail.com">আমাকে মেইল করুন</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ui container">
+    <h1 class="ui header center aligned">আমার কাজগুলো</h1>
+    <div class="ui three doubling cards" id="portfolio">
+    </div>
+  </div>
+  <div class="ui segment">
+    <h1 class="ui header center aligned">আমার সম্পর্কে সবাই যা বলেন</h1>
+    <div class="ui vertical stripe quote segment">
+      <div class="ui equal width stackable internally celled grid">
+        <div class="center aligned row">
+          <div class="column">
+            <h3>"ছেলেটার বেশ ট্যালেন্ট"</h3>
+            <p>- তাহের ভাই</p>
+          </div>
+          <div class="column">
+            <h3>"নাইম ভাইয়ের সাথে কাজ করতে ভালো লাগে"</h3>
+            <p>- প্রিয়ংকা আপু</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui inverted vertical masthead center aligned segment dark">
+    <div class="ui text container">
+      <h1 class="ui inverted header">
+        আসুন অসাধারণ কিছু করি
+      </h1>
+      <h2>আপনার যেকোন প্রজেক্টে, কিংবা পরামর্শের প্রয়োজনে আমাকে একটি ছোট মেইল করুন naimur.rahman103@gmail.com ইমেইলে। ওয়েব ডিজাইন,
+        ডেভেলপমেন্ট, টুকিটাকি যে কোন অসাধারণ আইডিয়া বাস্তব করার জন্য আমাকে সবসময় পাবেন আপনার সাথে।</h2>
+      <div class="center aligned column">
+        <a class="ui huge inverted blue button mail" href="mailto:naimur.rahman103@gmail.com">আমাকে মেইল করুন</a>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    const personDetails = {
+      name: "নাইমুর রহমান",
+      title: "ডেডিকেটেড ব্যাকএন্ড প্রোগ্রামার",
+      introData: "হ্যালো! আমি নাইমুর রহমান। ডেভেলপমেন্ট জগতের একজন ব্যাকএন্ড ডেভেলপার, ঢাকার খিলখেতের বাসিন্দা। আমি এইচটিএমএল৫, সিএসএস৩, জাভাস্ক্রিপ্ট, নোড-জেএস, এবং একটু রিএক্টজেএস ব্যবহার করে ডাইনামিক ওয়েবসাইট তৈরি করি। ভালো লাগে ওয়েব অটোমেশন এবং নিত্য নতুন বিভিন্ন টেকনোলজি নিয়ে ঘাটাঘাটি করতে।",
+      ctaData: "এইত কদিন আগেই আমি ফ্রিকোডক্যাম্পের ফ্রন্টএন্ড ডেভেলপার সার্টিফিকেট নিয়ে জুনিয়র ডেভেলপার হিসেবে ওয়েবের এই বিশাল জগতে পা রেখেছি। আসুন একত্রে অসাধারণ কিছু করি।",
+      image: "assets/images/profile.jpg",
+      contact: {
+        email: "naimur.rahman103@gmail.com"
+      }
+    }
+    const projectList = [{
+      name: "ছোটখাট টুডু এপপ।",
+      desc: "রিএক্ট ব্যবহার করে ফ্রন্টএন্ডের প্রাকটিসের জন্য এটা তৈরি করেছিলাম।",
+      image: "assets/images/portfolio/todo.png",
+      techs: "রিএক্ট, সেমেন্টিক ইউআই",
+      link: "http://tight-bit.surge.sh/",
+    },
+    {
+      name: "ভোটিং এপপ।",
+      desc: "অথেনটিকেশন সব ব্যাকএন্ডের বিভিন্ন ফিচার সহ একটি পরীক্ষামূলক এপপ। ",
+      techs: "রিএক্ট, সেমেন্টিক ইউআই",
+      image: "assets/images/portfolio/vote-app.png",
+      link: "https://reflective-record.glitch.me/",
+    },
+    {
+      name: "মার্কডাউন প্রিভিউয়ার",
+      desc: "রিএক্ট দিয়ে তৈরি একটি ছোট এপপ। ",
+      techs: "রিএক্ট, সেমেন্টিক ইউআই",
+      image: "assets/images/portfolio/markdown.png",
+      link: "http://military-snakes.surge.sh/",
+    },
+    {
+      name: "টুইচ টিভি।",
+      desc: "টুইচের এজাক্স এপিআই ব্যবহার করে তৈরি করা একটি এপপ। ",
+      techs: "রিএক্ট, সেমেন্টিক ইউআই, এপিআই",
+      image: "assets/images/portfolio/twitch.png",
+      link: "http://naimur.me/Twitch-Tv/",
+    },
+    {
+      name: "জিমেইল রিডার।",
+      desc: "গুগলের জিমেইল ও অথেনটিকেশন এপিআই ব্যবহার করে একটি ছোট এপপ। প্রতিদিনের মেইলগুলো এটা দেখায়। ",
+      techs: "রিএক্ট, সেমেন্টিক ইউআই, এপিআই, অথেনটিকেশন",
+      image: "assets/images/portfolio/gmail.png",
+      link: "http://sweltering-distance.surge.sh/",
+    },
+    {
+      name: "জাভাস্ক্রিপ্ট ক্যলকুলেটর",
+      desc: "জাভাস্ক্রিপ্ট দিয়ে তৈরি ক্যালকুলেটর",
+      techs: "জেকুয়েরী",
+      image: "assets/images/portfolio/cal.png",
+      link: "http://naimur.me/javascript-calculator/ ",
+    },
+    {
+      name: "ওয়েদার এপপ।",
+      desc: "যেকোন জায়গার আবহাওয়ার অবস্থা দেখার জন্য ওয়েদার এপিআই ব্যবহার করে তৈরি ছোট এপপ। ",
+      techs: "রিএক্ট, সেমেন্টিক ইউআই, ওয়েদার এপিআই",
+      image: "assets/images/portfolio/weather.png",
+      link: "http://naimur.me/WeatherApp",
+    },
+    {
+      name: "সোসাল পোস্টার।",
+      desc: "বিভিন্ন সামাজিক মাধ্যমে অটোমেশনের জন্য পাপেটার ব্যবহার করে পরীক্ষামূলক একটি ডেস্কটপ এপপ।",
+      techs: "রিএক্ট, সেমেন্টিক ইউআই, পাপেটার",
+      image: "assets/images/portfolio/social-bot.png",
+      link: "#"
+    },
+    {
+      name: "ইন্সটাগ্রাম কমেন্ট বট।",
+      desc: "ইন্সটাগ্রামে অটোমেটিক কমেন্ট করার জন্য একটি বট যা ব্যবহার করে ইন্সটাগ্রামে প্রবেশ ছাড়াই কমেন্ট করা যাবে।",
+      techs: "ইলেকট্রন, বুটস্ট্রাপ, পাপেটার",
+      image: "assets/images/portfolio/instagram-bot.png",
+      link: "#"
+    }
+    ]
+    projectList.map((project, index) => {
+
+      $('#portfolio').append(
+        `<div class="card green">
+          <div class="image">
+            <img src="${project.image ? project.image : ""}">
+          </div>
+          <div class="content">
+            <div class="header">${project.name}</div>
+            <div class="meta">
+              <a>${project.techs}</a>
+            </div>
+            <div class="description">
+              ${project.desc}
+            </div>
+          </div>
+          <a href="${project.link}"></a>
+        </div>`
+      )
+    });
+
+  </script>
+  <script src="assets/js/animation.js"></script>
+</body>
+</html>
